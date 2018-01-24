@@ -1,0 +1,9 @@
+RewriteEngine On
+SetEnvIf Host www.mchurch.com$ CI_ENV=production
+SetEnvIf Host test.mchurch.com$ CI_ENV=testing
+SetEnvIf Host www.mchurch.dev$ CI_ENV=development
+
+RewriteCond $1 !^(index\\.php|resources|robots\\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?/$1 [L,QSA]

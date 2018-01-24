@@ -1,0 +1,93 @@
+body{
+	font-family: 'Open sans' sans-serif;
+}
+header{
+	padding-top:50px;
+}
+#menuhaut{
+	border-radius:0px;
+	margin-bottom:0px;
+	border:none;
+}
+#menuhaut .nav li a, #menuhaut .navbar-brand{
+	padding-top:15px;
+	padding-bottom:15px;
+	height:auto !important
+}
+.affix{
+	top:0;
+	width:100%;
+	z-index:99;
+}
+.p0{
+	padding: 0px;
+}
+.ptb0{
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.plr0{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+#menuvertical{
+	background-color:#DDDDDD;
+	height:100vh;
+	overflow-y:scroll;
+	padding:10px 0px;
+}
+#menuvertical .nav-pills{
+	border-radius:0px;
+	
+}
+
+#menuvertical .nav-pills li a{
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius: 0px;
+	color:#000
+}
+#menuvertical .nav-pills li.active a{
+	background-color:#931205;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.3em
+}
+
+#menuvertical .nav-pills li a:hover{
+	color:#fff;
+	background-color:#A4A4A4
+}
+#menuvertical .avatar{
+	background-color:#fff;
+	padding:10px 5px;
+}
+#menuvertical .avatar img{
+	width:40%;
+	margin:0px auto;
+	border-radius:50px;
+}
+#menuvertical .username{
+	padding-top:20px;
+	font-weight:bold;
+	font-size:2em;
+	text-align:center;
+	text-transform:capitalize;
+
+}
+.btn-red{
+	background-color:#931205;
+	border:1px solid #931205;
+	color:#fff;
+	font-size:1.2em;
+	border-radius:0px;
+	padding-left:15px;
+	padding-right:15px;
+}
+.btn-red:hover{
+	background-color:#fff;
+	color:#931205;
+	font-size:1.3em;
+	border:1px solid #931205;
+}
